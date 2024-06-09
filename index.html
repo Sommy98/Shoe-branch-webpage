@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Landing Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(src/ice-coffee-with-whipped-cream.webp);">
+                    <div class="container">
+                        <h1>Discover the Ultimate Comfort</h1>
+                        <p>Introducing the most comfortable shoe you'll ever wear.</p>
+                        <button class="cta-button">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(src/men-shoes.webp);">
+                    <div class="container">
+                        <h1>Stylish and Durable</h1>
+                        <p>Perfect for all your adventures.</p>
+                        <button class="cta-button">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(src/one-white-sneaker-shoe-isolated-white.webp);">
+                    <div class="container">
+                        <h1>Modern Design</h1>
+                        <p>Looks great with any outfit.</p>
+                        <button class="cta-button">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </header>
+
+    <section class="features-section">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="src/one-white-sneaker-shoe-isolated-white.webp" alt="Comfort">
+                    <h3>Unmatched Comfort</h3>
+                    <p>Designed with premium materials for all-day comfort.</p>
+                </div>
+                <div class="feature">
+                    <img src="src/portrait-woman-s-legs-with-stylish-high-heels-pantyhose.jpg" alt="Durability">
+                    <h3>Durability</h3>
+                    <p>Built to last through all your adventures.</p>
+                </div>
+                <div class="feature">
+                    <img src="src/woman-shoe-shop.jpg" alt="Style">
+                    <h3>Stylish</h3>
+                    <p>Modern design that goes with any outfit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"These shoes are incredibly comfortable! I can wear them all day without any issues."</p>
+                    <h4>- Jane Doe</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Stylish and durable, the perfect combination for my busy lifestyle."</p>
+                    <h4>- John Smith</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"I've never had a pair of shoes that felt this good. Highly recommend!"</p>
+                    <h4>- Emily Johnson</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section">
+        <div class="container">
+            <h2>Pricing</h2>
+            <div class="pricing">
+                <div class="pricing-plan">
+                    <h3>Basic</h3>
+                    <p>$50</p>
+                    <p>Comfortable and stylish everyday wear.</p>
+                    <button class="cta-button">Buy Now</button>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Premium</h3>
+                    <p>$80</p>
+                    <p>Enhanced features with premium materials.</p>
+                    <button class="cta-button">Buy Now</button>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Deluxe</h3>
+                    <p>$120</p>
+                    <p>Ultimate comfort and durability with exclusive design.</p>
+                    <button class="cta-button">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sommy's website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
